@@ -9,7 +9,7 @@
 | **Section**         | CSE(FSD)2B                                           |
 | **Course**          | Backend Development Fundamentals                     |
 | **Lab Number**      | Lab 01                                               |
-| **Live Link**       | Deployment is pending (see Deployment section below) |
+| **Live Link**       | https://node-js-and-express-server-lab1.vercel.app/  |
 
 ---
 
