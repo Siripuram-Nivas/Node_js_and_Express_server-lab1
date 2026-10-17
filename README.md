@@ -201,28 +201,3 @@ In each route handler, Express provides two objects:
 
 ---
 
-## Deployment
-
-Deployment is currently **pending/unavailable**.
-
-**Reason:** Deploying a persistent Node.js/Express server requires a backend runtime environment (such as Render, Railway, or Heroku). Static hosting platforms (like GitHub Pages) cannot run Node.js servers. Deployment has not yet been configured for this submission.
-
-**Remaining steps to deploy (manual):**
-
-1. Create an account on Render (https://render.com) or a similar platform.
-2. Connect the GitHub repository.
-3. Set the start command to `node server.js`.
-4. Ensure the server uses the platform's PORT environment variable:
-   `js
-const PORT = process.env.PORT || 3000;
-`
-5. Deploy and copy the live URL into this README.
-
----
-
-## Git and Repository Notes
-
-- `node_modules/` is excluded from version control via `.gitignore`.
-- `.env` is also excluded in `.gitignore` (not used in this lab, but good practice).
-- `package-lock.json` is committed to ensure reproducible installs.
-- Do not force-push or overwrite Git history.
